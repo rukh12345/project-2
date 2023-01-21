@@ -165,7 +165,8 @@
     visibility: hidden;
     animation-fill-mode: forwards;
 }
-@keyframes zoomin{
+
+ @keyframes zoomin{
     0%{
         transform:scale(0.5);
         visibility: visible;
@@ -174,7 +175,7 @@
     transform:scale(1);
     visibility: visible;
 }
-}
+} 
 
 main{
     
@@ -196,11 +197,13 @@ main{
     justify-content: center;
      animation: change 20s infinite ease-in-out;
 }
-@media(max-width:760px){
+
+/* @media(max-width:760px){
     .section-top{
         min-height: 50vh;
     }
-}
+} */
+
 .content{
     position: absolute;
     top: 20%;
@@ -214,7 +217,8 @@ main{
     animation-fill-mode: forwards;
     width: 400px; 
 }
-@keyframes moveright{
+
+ @keyframes moveright{
    0%{
         transform:translateX(-100px);
         visibility: visible;
@@ -223,12 +227,14 @@ main{
     transform:translateX(0);
     visibility: visible;
 }
-}
+} 
+
 .content p{
     font-size:4rem;
      font-family: 'Poppins', sans-serif;
 }
-@media(max-width:768px){
+
+/* @media(max-width:768px){
     .content{
         min-height: 45vh;
         left: 3%;
@@ -236,7 +242,8 @@ main{
     .content p{
         font-size: 30px;
     }
-}
+} */
+
  .content a{
     background: white;
     padding: 10px 24px;
@@ -278,15 +285,16 @@ main{
     min-width: 40vh;
 }
 
-@media(max-width:700px) {
+ /* @media(max-width:700px) {
     .wrapper {
         flex-direction: column;
     }
     .box1 {
         width: 100%;
-        /* margin-top: 10px; */
+         margin-top: 10px; 
     }
-}
+}  */
+
 .img1{
 background-image: url(images-css/ai.jpeg);
 width:100%;
@@ -295,7 +303,8 @@ background-repeat: no-repeat;
 background-size: cover;
 padding-top: 90px;
 }
-@media(max-width:768px){
+
+ /* @media(max-width:768px){
     .img1{
         min-height: 45vh;
         left: 3%;
@@ -303,7 +312,7 @@ padding-top: 90px;
     .content p{
         font-size: 30px;
     }
-}
+}  */
 
 .img2{
 background-image: url(images-css/a2.jpeg);
@@ -313,7 +322,8 @@ background-repeat: no-repeat;
 background-size: cover;
 padding-top: 90px;
 }
-@media(max-width:768px){
+
+ /* @media(max-width:768px){
     .img2{
         min-height: 45vh;
         left: 3%;
@@ -321,7 +331,7 @@ padding-top: 90px;
     .content p{
         font-size: 30px;
     }
-}
+}  */
 
 .img_text{
 padding-left: 45px;
