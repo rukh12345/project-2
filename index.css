@@ -278,10 +278,10 @@ main{
 }
 
 .box1 {
-    width: 700px;
+     width: 500px; 
     height: 280px;
     align-items: center;
-    min-height: 90vh;
+    min-height: 60vh;
     min-width: 40vh;
 }
 
