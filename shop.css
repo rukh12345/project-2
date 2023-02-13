@@ -21,6 +21,7 @@
     max-width: 1068px;
     margin: auto;
     width: 100%;
+    
 }
  section{
     padding: 4rem 0 3rem;
@@ -150,6 +151,7 @@
 }
 .category{
     margin-top: 40px;
+    margin-top: 50px;
     }
 .category h1{
     text-shadow:1px 1px 3px rgba(0, 0, 0, 0.426);
