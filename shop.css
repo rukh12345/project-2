@@ -34,7 +34,7 @@
   }
 .c{
     margin-top: 15px;
-    margin-bottom: 12px;
+    margin-bottom: 1px;
 }
   
 .s1{
@@ -153,7 +153,7 @@
     }
 .category h1{
     text-shadow:1px 1px 3px rgba(0, 0, 0, 0.426);
-    font-size: 200%;
+    font-size: 150%;
 }
 .category h2 span{
     color: rgb(70, 151, 221);
@@ -162,7 +162,7 @@
 }
 .category h3 span{
     font-weight: bolder;
-    font-size: 120%;
+    font-size: 100%;
     color:gold;
 }
 .ab{
