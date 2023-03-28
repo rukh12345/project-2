@@ -195,7 +195,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
-     /* animation: change 20s infinite ease-in-out; */
+     animation: change 20s infinite ease-in-out; 
 }
 
 /* @media(max-width:760px){
@@ -258,10 +258,10 @@ main{
 } 
 @keyframes change{
     20%{
-        background-image:url('images-css/a4.jpeg') ;
+        background-image:url('assets/images-css/a4.jpeg') ;
     }
     40%{
-        background-image:url('images-css/a3.jpeg') ;
+        background-image:url('assets/images-css/a3.jpeg') ;
     }
 }
       /* home page css end */
