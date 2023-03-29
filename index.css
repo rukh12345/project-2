@@ -191,7 +191,7 @@ main{
     min-width: 40vh;
     overflow: hidden;
     position: relative;
-    background-image: url(images/a6.jpeg);
+    background-image: url('home images/a6.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,10 +260,10 @@ main{
 
  @keyframes change{
     20%{
-        background-image:url (images-css/a4.jpeg) ;
+        background-image:url ('home images/a4.jpeg') ;
     }
     40%{
-        background-image:url (images-css/a3.jpeg) ;
+        background-image:url ('home images/a3.jpeg') ;
     }
 } 
       /* home page css end */
@@ -301,7 +301,7 @@ main{
 }  */
 
 .img1{
-background-image: url(images/ai.jpeg);
+background-image: url('home images/ai.jpeg');
 width:100%;
 height: 50vh;
 background-repeat: no-repeat;
@@ -320,7 +320,7 @@ padding-top: 90px;
 }  */
 
 .img2{
-background-image: url(images/a2.jpeg);
+background-image: url('home images/a2.jpeg');
 width: 100%;
 height: 50vh;
 background-repeat: no-repeat;
