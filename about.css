@@ -31,7 +31,7 @@ h4{
   }
   .about{
      /* background-color:goldenrod;  */
-    background-image: url(/assets/images_about/r5.jpeg);
+    background-image: url(images_about/r5.jpeg);
     height:300px;
     background-size: cover;
     width: 100%;
